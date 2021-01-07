@@ -1,42 +1,4 @@
 /*		Fonts	*/
-@font-face {
-    font-family: 'open_regular';
-    src: url('../fonts/opensans-regular.eot');
-    src: url('../fonts/opensans-regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/opensans-regular.woff') format('woff'),
-         url('../fonts/opensans-regular.ttf') format('truetype'),
-         url('../fonts/opensans-regular.svg#LatoRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-@font-face {
-    font-family: 'open_bold';
-    src: url('../fonts/opensans-bold.eot');
-    src: url('../fonts/opensans-bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/opensans-bold.woff') format('woff'),
-         url('../fonts/opensans-bold.ttf') format('truetype'),
-         url('../fonts/opensans-bold.svg#LatoRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-@font-face {
-    font-family: 'open_semibold';
-    src: url('../fonts/opensans-semibold.eot');
-    src: url('../fonts/opensans-semibold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/opensans-semibold.woff') format('woff'),
-         url('../fonts/opensans-semibold.ttf') format('truetype'),
-         url('../fonts/opensans-semibold.svg#open_sanssemibold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 :root {
     --animate-duration:1s;--animate-delay:1s;--animate-repeat:1}
 
@@ -134,15 +96,6 @@ button,html input[type=button],input[type=reset],input[type=submit] {
 
 input {
     line-height: normal
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0
-}
-
-table {
-    background-color: transparent
 }
 
 * {
@@ -398,33 +351,6 @@ header .logo img{
 	width: 200px;
 	border-radius: 5px 20px 5px;
 	box-shadow: 0 8px 6px -6px black;
-}
-
-header .burger_icon{
-	display: none;
-	float: right;
-	background: #ffffff;
-	padding: 5px 10px;
-	text-transform: uppercase;
-
-	color: #43b779;
-	font-family: "open_regular", Helvetica, Arial, sans-serif;
-	font-size: 14px;
-
-	-moz-border-radius: 2px;
-	-webkit-border-radius: 2px;
-	border-radius: 2px;
-
-	margin: 45px 10px 0 0;
-}
-
-header .burger_icon:hover{
-	cursor: pointer;
-}
-
-header .burger_icon.active{
-	background: #359663;
-	color: #ffffff;
 }
 
 header nav{
@@ -874,7 +800,7 @@ a.app_link{
 	font-size: 14px;
 }
 
-.#tslider{
+.#tslider .owl-controls{
 	text-align: center!important;
 	position: relative!important;
 }
