@@ -40,7 +40,7 @@
 :root {
     --animate-duration:1s;--animate-delay:1s;--animate-repeat:1}
 
-	 
+
 @media (min-width: 992px) {
     .col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9 {
         float:left
@@ -490,7 +490,7 @@ header .social li:first-child{
 	position: relative;
 	width: 100%;
 	height: 560px;
-	background: url('../img/hero.jpg') no-repeat fixed center center;
+	background: url('../img/hero.webp') no-repeat fixed center center;
 	background-size: cover;
 }
 
